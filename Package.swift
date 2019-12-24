@@ -23,7 +23,7 @@ let package = Package(
         .package(url: "https://github.com/vapor/service.git", from: "1.0.0"),
 
         // 💧 A server-side Swift web framework.
-        .package(url: "https://github.com/vapor/vapor.git", from: "3.2.0"),
+        .package(url: "https://github.com/joshuawright11/vapor.git", .branch("linux-fix")),
         
         // Fluent SQLite, only for testing.
         .package(url: "https://github.com/vapor/fluent-sqlite.git", from: "3.0.0"),
